@@ -1,0 +1,274 @@
+1.
+class rectangle
+{
+public static void main(String args[])
+{
+int l=5,b=7,area,perim;
+area=l*b;
+perim=2*(l+b)
+System.out.println("area of rectangle is",+area);
+System.out.println("perimater of rectangle is",+perimeter);
+}
+}
+2.
+class triangle
+{
+public static void main(String args[])
+{
+int a=2,b=3,c=5,perim;
+perim=a+b+c;
+System.out.println("perimater of triangle is",+perim);
+}
+}
+3.
+class math
+{
+public static void main(String args[])
+{
+System.out.println((((8+2345)/3)%5)*5);
+}
+}
+4.
+class math
+{
+public static void main(String args[])
+{
+int a=2345;
+a+=8;
+a/=3;
+a%=5;
+a*=5;
+System.out.println(a);
+}
+}
+
+5.
+import java.util.*;  
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		if(a==b)
+		{
+		    System.out.println(a+" and "+b+" are equal.");
+		}
+		else
+		{
+		 System.out.println(a+" and "+b+" not are equal.");   
+		}
+	}
+}
+
+6.
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b;
+		double c;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		c=Math.pow(a,b);
+		System.out.println(c);
+	}
+	
+}
+
+7.
+
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b;
+		a=sc.nextInt();
+		b=sc.nextInt();
+	    if(a<50 && a<b)
+	    {
+	        System.out.println("True");
+	    }
+	    else
+	    {
+	       System.out.println("False");
+	    }
+	}
+	
+}
+
+8.
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b;
+		a=sc.nextInt();
+		b=sc.nextInt();
+	    if(a<50 || a<b)
+	    {
+	        System.out.println("True");
+	    }
+	    else
+	    {
+	       System.out.println("False");
+	    }
+	}
+	
+}
+
+9.
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b,c;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		c=sc.nextInt();
+	    int total=a+b+c;
+	    System.out.println("Total marks :"+total);
+	    double per=(total*100/300);
+	    System.out.println("percentage is :"+per);
+	}
+	
+}
+
+10.
+
+#using third variable
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b,t;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println("Before Swapping a and b :"+a+" "+b);
+		t=a;
+		a=b;
+		b=t;
+		System.out.println("After Swapping a and b :"+a+" "+b);
+	}
+	
+}
+
+#without using 3rd variable
+import java.util.*;  
+import java.lang.Math;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		int a,b,t;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println("Before Swapping a and b :"+a+" "+b);
+		a = a + b; 
+        b = a - b;
+        a = a - b;
+		System.out.println("After Swapping a and b :"+a+" "+b);
+	}
+	
+}
+11.
+class eleven 
+ {  
+   public static void main (String args[])  
+    { float Fahrenheit, Celsius;  
+          Fahrenheit = 43;  
+          Celsius  = ((Fahrenheit-32)*5)/9;  
+          System.out.println("Temperature in celsius is: "+Celsius);  
+    }}
+12.
+class twelve
+{
+public static void main(String args[])
+{
+int total=90;
+int boys=45;
+int ga=45;
+int gab=20;
+int gag=ga-gab;
+System.out.println("Grade A girls " +gag);
+}
+}
+13.
+class thirteen
+{
+public static void main(String args[])
+{
+int num=12345;
+int sum=0;
+for(int i=0;i<5;i++)
+{
+if(i==1 || i==4)
+{
+int p=num%10;
+sum=sum+p;
+}
+num=num/10;
+}
+System.out.println(sum);
+}
+}
+14.
+class fourteen
+{
+public static void main(String args[])
+{
+int num=1234;
+int sum=0;
+int temp=num;
+for(int i=3;i>=0;i--)
+{
+int p=(temp/(10^i))-(sum*10);
+p=p+2;
+sum=(sum*10)+p;
+}
+System.out.println(sum);
+}
+}
+15.
+class fifteen
+{
+public static void main(String args[])
+{
+int n=123;
+int sum=0;
+for(int i=0;i<3;i++)
+{
+int p=n%10;
+sum=sum+p;
+n=n/10;
+}
+System.out.println(sum);
+}
+}
+16.
+class sixteen
+{
+public static void main(String args[])
+{
+int n=123;
+int sum=0;
+for(int i=0;i<3;i++)
+{
+int p=n%10;
+sum=(sum*10)+p;
+n=n/10;
+}
+System.out.println(sum);
+}
+}

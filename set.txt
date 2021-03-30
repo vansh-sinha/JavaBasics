@@ -1,0 +1,76 @@
+1.=======int,char,double=======
+public class sample1{
+   public static void main(String[] args) {
+        int a = 10;
+        double b = 10.5;
+        char s = 's';
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(s);
+    }
+}
+2.======rectangle=======
+public class sample2{  
+    public static void main(String args[])  
+    {  
+    int l=2;  
+    int b=3;  
+    int a=l*b;  
+        System.out.println("Area of rectangle :"+a);  
+     }  
+}  
+3.====product=======
+public class sample3{  
+    public static void main(String args[])  
+    {  
+    double a=8.2;  
+    int b=6; 
+    System.out.println("product :"+a*b);  
+     }  
+}  
+4.=====ascii=======
+public class sample4
+{  
+public static void main(String[] args)   
+{  
+int s = 'h';
+System.out.println("The ASCII value of h is: "+s);  
+}
+}  
+5.=======conversion=======
+public class sample5{  
+   public static void main(String args[]){  
+	double d = 100.235;
+	int i=(int)dnum;  
+	System.out.println(i);  
+   }
+}
+6.======ascii=========
+public class sample6
+{
+ public static void main(String arg[])
+    {
+        char s='d';
+        s=(char)(s+3);
+        System.out.println(s);
+    }
+}
+7.======add======
+public class sample7{  
+    public static void main(String args[])  
+    {  
+    double a=6.2;  
+    int b=5;
+    double c=a+b;  
+        System.out.println("addition :"+c);  
+     }  
+}
+8.=======square=======
+  public class sample8{  
+    public static void main(String args[])  
+    {  
+    double a=3.9;  
+    double s=a*a;  
+    System.out.println("square :"+s);  
+     }  
+}  
